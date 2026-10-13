@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glosbe: enlazar palabras</title>
+  <style>
+    body { font: 14px system-ui, sans-serif; width: 250px; padding: 12px; }
+    button { width: 100%; padding: 9px; cursor: pointer; }
+    p { line-height: 1.4; color: #444; }
+    #status { min-height: 1.2em; }
+  </style>
+</head>
+<body>
+  <strong>Glosbe: enlazar palabras</strong>
+  <p>Convierte las palabras del texto de la pestaña actual en enlaces a Glosbe.</p>
+  <button id="convert">Convertir esta página</button>
+  <p id="status" role="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
